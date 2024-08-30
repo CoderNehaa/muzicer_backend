@@ -1,7 +1,7 @@
 import { CustomError } from "../utils/custom.error.js";
 import UserModel from "../models/user.model.js";
 import SongModel from "../models/song.model.js";
-import { PlaylistModel } from "../models/Playlist.model.js";
+import { PlaylistModel } from "../models/playlist.model.js";
 import mongoose from "mongoose";
 
 export class MusicController {
